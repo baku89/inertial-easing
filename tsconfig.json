@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "umd",
+		"strict": true,
+		"esModuleInterop": true,
+		"baseUrl": ".",
+		"outDir": "./lib",
+		"declaration": true,
+		"lib": ["esnext"],
+		"skipLibCheck": true,
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src"]
+}
